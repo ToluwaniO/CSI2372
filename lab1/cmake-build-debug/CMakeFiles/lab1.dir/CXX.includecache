@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/lab1/main.cpp
+iostream
+-
+vector
+-
+string
+-
+cmath
+-
+

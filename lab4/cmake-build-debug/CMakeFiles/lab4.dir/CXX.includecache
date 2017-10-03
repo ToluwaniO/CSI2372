@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/lab4/main.cpp
+iostream
+-
+screen.h
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/lab4/screen.h
+
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/lab4/screen.cpp
+iostream
+-
+screen.h
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/lab4/screen.h
+
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/lab4/screen.h
+
