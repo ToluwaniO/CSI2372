@@ -33,35 +33,35 @@ using std::cin;
 using std::endl;
 
 int main() {
-    screen sc;
-    char screen[20][40];
+//    screen sc;
+//    char screen[20][40];
+//
+//    for (int i = 0; i < 20; ++i) {
+//        for (int j = 0; j < 40; ++j) {
+//            screen[i][j] = static_cast<char>(40);
+//        }
+//    }
+//    cout << "printing..." << endl;
+//    sc.printScreen(screen);
+//    cout << "Clearing..." << endl;
+//    sc.clearScreen(screen);
+//    cout << "Printing again..." << endl;
+//    sc.printScreen(screen);
+//    cout << "Done!" << endl;
 
-    for (int i = 0; i < 20; ++i) {
-        for (int j = 0; j < 40; ++j) {
-            screen[i][j] = static_cast<char>(40);
-        }
-    }
-    cout << "printing..." << endl;
-    sc.printScreen(screen);
-    cout << "Clearing..." << endl;
-    sc.clearScreen(screen);
-    cout << "Printing again..." << endl;
-    sc.printScreen(screen);
-    cout << "Done!" << endl;
-//    sc.clearScreen( screen );
-//    int hLines, vLines;
-//    cout << "No. of Horizontal and Vertical Lines: "; cin >> hLines; cout << endl;
-//    gridScreen( screen, hLines );
-//    printScreen( screen );
-//    // No clear screen
-//    cout << "Drawing new grid over old grid:" << endl;
-//    cout << "No. of Horizontal Lines: "; cin >> hLines;
+    char screen[g_height][g_width]{};
+    clearScreen( screen );
+    int hLines, vLines;
+    cout << "No. of Horizontal Lines: "; cin >> hLines; cout << endl;
 //    cout << "No. of Vertical Lines: "; cin >> vLines; cout << endl;
-//    gridScreen( screen, hLines, vLines );
-//    printScreen( screen );
-//    clearScreen( screen );
+    gridScreen( screen, hLines );
+    printScreen( screen );
+    // No clear screen
+    cout << "Drawing new grid over old grid:" << endl;
+    cout << "No. of Horizontal Lines: "; cin >> hLines;
+    cout << "No. of Vertical Lines: "; cin >> vLines; cout << endl;
+    gridScreen( screen, hLines, vLines );
+    printScreen( screen );
+    clearScreen( screen );
     return 0;
 }
-    
-  
-
