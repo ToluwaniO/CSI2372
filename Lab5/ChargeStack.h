@@ -19,9 +19,10 @@ public:
     ~ChargeStack();
     void push(const Device& device);
     Device pop();
-    Device& peek() const;
+    Device& peek() ;
     int size() const;
     bool isEmpty() const;
+    void print(ostream& stream) const ;
 };
 
 

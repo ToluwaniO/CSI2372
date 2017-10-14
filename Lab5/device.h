@@ -20,11 +20,6 @@ struct DateOfManufacture{
 
 class Device {
 
-private:
-    string d_name;
-    DateOfManufacture d_date;
-    Type d_type;
-
 public:
     enum class Type{
         watch, phone, tablet, laptop
@@ -33,6 +28,13 @@ public:
     Device(const string& name, const Type& type, const DateOfManufacture& date);
     ~Device();
     void print(ostream& stream) const;
+    string toStr(Type type) const ;
+
+private:
+    string d_name;
+    DateOfManufacture d_date;
+    Type d_type;
+
 
 };
 

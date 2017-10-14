@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/Lab5/ChargeStack.cpp
+iostream
+-
+ChargeStack.h
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/Lab5/ChargeStack.h
+
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/Lab5/ChargeStack.h
+device.h
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/Lab5/device.h
+vector
+-
+
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/Lab5/device.cpp
+device.h
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/Lab5/device.h
+
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/Lab5/device.h
+iostream
+-
+string
+-
+
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/Lab5/main.cpp
+iostream
+-
+array
+-
+device.h
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/Lab5/device.h
+ChargeStack.h
+C:/Users/oguns/OneDrive/Documents/uottawa/fall_2017/CSI2372/labs/Lab5/ChargeStack.h
+

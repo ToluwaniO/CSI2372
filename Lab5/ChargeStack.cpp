@@ -2,14 +2,14 @@
 // Created by oguns on 10/11/2017.
 //
 
+#include <iostream>
 #include "ChargeStack.h"
 
-ChargeStack::ChargeStack():v(vector()) {
+using namespace std;
 
-}
 
 ChargeStack::~ChargeStack() {
-    delete[] v;
+    v.clear();
 }
 
 void ChargeStack::push(const Device &device) {
@@ -22,7 +22,7 @@ Device ChargeStack::pop() {
     return d;
 }
 
-Device &ChargeStack::peek() const {
+Device &ChargeStack::peek()  {
     return v.back();
 }
 
@@ -32,4 +32,11 @@ int ChargeStack::size() const {
 
 bool ChargeStack::isEmpty() const {
     return v.empty();
+}
+
+void ChargeStack::print(ostream& stream) const {
+    for (const auto &i : v)
+    {
+        i.print(stream);
+    }
 }
